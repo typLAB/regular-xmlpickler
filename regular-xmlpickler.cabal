@@ -12,7 +12,7 @@ License:          BSD3
 License-File:     LICENSE
 Build-Type:       Simple
 Build-Depends:    base == 4.*,
-                  hxt ==8.3.*,
+                  hxt >=8.3 && < 8.6,
                   regular == 0.2.*
 
 HS-Source-Dirs:   src
