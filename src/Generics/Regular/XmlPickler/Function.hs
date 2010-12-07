@@ -20,7 +20,7 @@ module Generics.Regular.XmlPickler.Function (gxpickle, GXmlPickler(..)) where
 
 import Data.Char (toLower)
 import Generics.Regular
-import Text.XML.HXT.Arrow
+import Text.XML.HXT.Arrow.Pickle
 import Text.XML.HXT.Arrow.Pickle.Schema
 
 -- | The generic XmlPickler class. This gives generic xml picklers for

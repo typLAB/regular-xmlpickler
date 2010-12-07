@@ -18,7 +18,7 @@ module Generics.Regular.XmlPickler.Instances() where
 
 import Generics.Regular
 import Generics.Regular.XmlPickler.Function
-import Text.XML.HXT.Arrow
+import Text.XML.HXT.Arrow.Pickle
 
 -- * Boolean instance for XmlPickler.
 

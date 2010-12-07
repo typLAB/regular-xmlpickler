@@ -1,5 +1,5 @@
 Name:             regular-xmlpickler
-Version:          0.1.1
+Version:          0.1.2
 Description:      Generic generation of HXT XmlPickler instances using Regular.
 Synopsis:         Generic generation of HXT XmlPickler instances using Regular.
 Category:         XML, Data
@@ -11,9 +11,9 @@ Homepage:         http://github.com/typLAB/regular-xmlpickler
 License:          BSD3
 License-File:     LICENSE
 Build-Type:       Simple
-Build-Depends:    base == 4.*,
-                  hxt >=8.3 && < 8.6,
-                  regular == 0.2.*
+Build-Depends:    base == 4.*
+                , hxt >=8.3 && < 9.1
+                , regular >= 0.2 && < 0.4
 
 HS-Source-Dirs:   src
 GHC-Options:      -Wall -fno-warn-orphans
